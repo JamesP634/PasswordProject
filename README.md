@@ -25,3 +25,13 @@ COMPLEXITY:
                 O	A PASSWORD CANNOT CONTAIN YOUR NETWORK ACCOUNT NAME, USERNAME OR DISPLAY NAME.
   
                 O	CANNOT BE REUSED IN THE LAST 4 PASSWORDS
+                
+               
+GIVEN TEST CASES:
+name/username/display name/passwords:                                 
+
+- brad, pitt, bpitt, actor, moviesrockAABB11@!, dfsdlfhsgssg,  jfhuefhaee, WWWWWWW, 91, GettingmyGroveBack99!!,  99
+
+- chris, doe,  cdoe, stuff, PassWord12!@, Password123!@#, Password0h$$, sodfhsdfhueow, 45,Password123!@#, 99
+
+- Ryu, doe, rdoe, kickboxer, 1234qwertyASDF, 0987opiuPO&&, %%%&*)())()(, f, 60, f
