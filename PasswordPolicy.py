@@ -74,7 +74,7 @@ def sign_in():
 def login(window, username, userPassword):
     # clears prompt
     tk.Label(window, text="                                                                                                                       "
-            , bg='gray90', font=('Helvetica', 12)).place(x = 300, y = 255, anchor='center')
+            , bg='gray90', font=('Helvetica', 12)).place(x = 250, y = 190, anchor='center')
 
     username = username.get()
     if username in usersList:
