@@ -28,7 +28,7 @@ COMPLEXITY:
                 
                
 GIVEN TEST CASES:
-name/username/display name/passwords:                                 
+first name/last name/username/display name/passwords:                                 
 
 - brad, pitt, bpitt, actor, moviesrockAABB11@!, dfsdlfhsgssg,  jfhuefhaee, WWWWWWW, 91, GettingmyGroveBack99!!,  99
 
