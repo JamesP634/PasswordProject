@@ -81,7 +81,7 @@ def login(window, username, userPassword):
         password = userPassword.get()
 
         # check for user's password
-        if password in usersList[username]:
+        if password == usersList[username]:
             tk.Label(window, text=("Welcome back " + username), bg='gray90', font=('Helvetica', 14, 'bold')).place(x=250, y=190, anchor='center')
 
         else:
@@ -193,6 +193,10 @@ def testPassword(userPassword, userConfirm, firstName, lastName, displayName, us
     if password == confirmPassword:
         # Initially sets valid password to true. If any case fails, valid password is automatically false.
         validPassword = True
+
+        if " " in fName or " " in lName or " " in displayName or " " in username:
+            tk.Label(window, text="Error: Empty Required Fields", bg='gray90', font=('Helvetica', 14, 'bold')).place(x = 300, y = 250, anchor='center')
+            validPassword = False
 
         # redirection from "reset password"
         if username in SavedPasswords:
